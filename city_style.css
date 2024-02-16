@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+.header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+.container {
+    position: relative;
+    font-family: Arial;
+}
+
+.heading{
+    font-size: 35px;
+    margin: 0%;
+    font-family:courier;
+}
+.heading-text {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    padding: 15px 30px 15px 30px;
+    left: 50%;
+    background-color: #c4bebe83;
+    transform: translate(-50%, -50%);
+}
+
+td {
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.profile_image{
+    width:120px;
+    border-radius: 80%;
+
+}
+.about_me{
+    width: 250px;
+}
+.follow{
+    height: 36px;
+    width: 36px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.read_more{
+    color: green;
+}
